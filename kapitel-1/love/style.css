@@ -1,0 +1,22 @@
+body {
+    background-color: #ffffdc;
+    background-image: url("./bilder/lidia-nikole-R7oHCfHo2ik-unsplash.jpg");
+}
+h1 {
+    color: #ffffff;
+    font-size: 100px;
+    font-family: "Matemasie", sans-serif;
+}
+h2 {
+    color: #f7efff;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+}
+p {
+    color: #f7fff0;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+}
+a {
+    color: #8c2439;
+}
