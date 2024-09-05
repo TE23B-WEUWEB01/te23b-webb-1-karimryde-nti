@@ -1,0 +1,26 @@
+body {
+    background-image: url("./bilder/image-24.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    font-family: "Playfair Display", serif;
+    margin-left: 100px;
+    font-size: 50px;
+    color: #fff;
+}
+p {
+    font-family: "Roboto", system-ui;
+    background-color: #dedede5b;
+    width: 500px;
+    padding: 20px;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+img {
+    margin-left: 100px;
+    width: 100px;
+}
+a {
+
+}
