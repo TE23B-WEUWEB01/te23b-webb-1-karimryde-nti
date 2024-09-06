@@ -1,0 +1,30 @@
+body {
+    background-color: #e9c3c3;
+}
+table {
+    background-color: #a18585;
+    width: 1000px;
+    margin: auto;
+}
+caption {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+    background-image: url("./bilder/images.jfif");
+}
+tr {
+
+}
+th {
+    padding: 15px;
+    font-size: 25px;
+}
+td {
+    background-color: #fff;
+    padding: 10px;
+}
+img {
+    width: 150px;
+}
