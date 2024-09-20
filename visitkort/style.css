@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /* Enkel CSS-reset */
 html {
@@ -13,24 +13,24 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 body {
-    background-color: #e8e8e8;
+    background-color: #eee;
 }
 div {
-    background-image: url("./bilder/jeremy-thomas-Qw2CUd_9OWo-unsplash.jpg");
+    background-image: url("./bilder/florian-van-schreven-ZFMJ5xECg2I-unsplash.jpg");
+    background-size: cover;
+    background-position: 0 -400px;
     width: 600px;
     height: 400px;
-    background-size: cover;
     margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 350px;
     padding-top: 100px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 10px 10px 20px #000;
-    color: #fff;
 }
 h1 {
-    font-family: "Archivo Black", sans-serif;
+    font-family: "Playfair Display", serif;
     font-size: 60px;
 }
 h2 {
@@ -38,6 +38,6 @@ h2 {
     font-size: 30px;
 }
 p {
-    font-family: "Playfair Display", serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
 }
