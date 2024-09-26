@@ -16,6 +16,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 body {
     background-image: url("./bilder/adam-bartoszewicz-Uo4xg4yqrGg-unsplash.jpg");
+    background-size: cover;
 }
 
 /* Boxens utseende */
@@ -24,7 +25,7 @@ div {
     width: 600px;
     margin: auto;
     margin-top: 50px;
-    background-color: #efe9a0;
+    background-color: #efe8a0ea;
     padding: 40px;
     border-radius: 20px;
     border: 10px solid #9a7f5d;
@@ -36,7 +37,8 @@ div {
 
 h1 {
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 70px;
+    text-shadow: 1px 1px 1px #000;
 }
 h2 {
     margin-bottom: 15px;
@@ -46,6 +48,8 @@ h2 {
 
 img {
     width: 200px;
+    text-align: center;
+    border: 10px solid #fff;
 }
 p {
     margin-bottom: 10px;
