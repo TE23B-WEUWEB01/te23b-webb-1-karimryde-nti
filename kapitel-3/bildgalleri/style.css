@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* sidans layout */
+body {
+    background-image: url("./bilder/GSFC_20171208_Archive_e001982~orig.jpg");
+    font-family: "Noto Sans", sans-serif;
+    color: #fff;
+}
+.kontainer {
+    width: 800px;
+    padding: 40px;
+}
+.box {
+    background-color: #000;
+    padding: 50px;
+}
+
+/* Sidans innehåll */
+h1 {
+    font-family: "Audiowide", sans-serif;
+}
+h2 {
+
+}
+img {
+    width: 100%;
+}
+p {
+
+}

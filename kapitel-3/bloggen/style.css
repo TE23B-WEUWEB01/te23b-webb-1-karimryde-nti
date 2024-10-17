@@ -1,3 +1,13 @@
+/* Färgpalett */
+:root {
+    /* CSS HEX */
+    --barn-red: #780000ff;
+    --fire-brick: #c1121fff;
+    --papaya-whip: #fdf0d5ff;
+    --prussian-blue: #003049ff;
+    --air-superiority-blue: #669bbcff;
+}
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -12,24 +22,24 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 /* Layoutens utseende */
 body {
-
+    background-color: var(--air-superiority-blue);
 }
 .kontainer {
-    background-color: green;
+    background-color: var(--papaya-whip);
     width: 700px;
     padding: 50px;
     margin: auto;
     margin-top: 20px;
 }
 .inlägg {
-    background-color: orange;
+    background-color: var(--barn-red);
     padding: 50px;
     margin-bottom: 40px;
 }
 
 /* Innehållets utseende */
 h1 {
-
+    color: var(--prussian-blue);
 }
 h2 {
 
