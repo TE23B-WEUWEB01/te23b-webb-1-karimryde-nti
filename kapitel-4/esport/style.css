@@ -61,5 +61,12 @@ p {
 
 }
 a {
-
+    text-decoration: none;
+    background-color: #fff;
+    color: #e3912d;
+    padding: 0 3px;
+}
+a:hover {
+    background-color: #ee8d8d;
+    color: #ffffff;
 }
