@@ -17,6 +17,7 @@ body {
 
 }
 .kontainer {
+    background-color: #e3e3e3;
     width: 900px;
     padding: 20px;
     margin: auto;
@@ -24,17 +25,17 @@ body {
 }
 
 /* Menyn utseende */
-ul {
+.kontainer ul {
     font-family: "Oswald", sans-serif;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     padding: 0 20px;
 }
-li {
+.kontainer ul li {
 
 }
-a {
+.kontainer ul a {
     text-decoration: none;
     color: #FFF;
     background-color: #606C38;
@@ -45,26 +46,41 @@ a {
     box-shadow: 3px 3px 0 #999;
     text-align: center;
 }
+.kontainer ul a:hover {
+    background-color: #9caf5d;
+}
+.kontainer ul .aktiv {
+    background-color: #9caf5d;
+}
 
 /* Innehållets utseende */
-h1 {
+.kontainer h1 {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     color: #DDA15E;
     font-size: 80px;
+    text-align: center;
 }
-p {
+.kontainer p {
+    margin: 20px auto;
+}
+.kontainer .tack {
+    font-style: italic;
+}
+.kontainer .tack a {
+    text-decoration: none;
+    color: #DDA15E;
+}
 
+.kontainer figure {
+    width: 60%;
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    margin: 20px auto;
 }
-.tack {
-
-}
-figure {
-
-}
-img {
+.kontainer figure img {
     width: 100%;
 }
-figcaption {
+.kontainer figure figcaption {
 
 }
