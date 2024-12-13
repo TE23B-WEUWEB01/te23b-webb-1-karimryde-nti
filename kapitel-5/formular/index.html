@@ -8,16 +8,16 @@
 </head>
 <body>
     <div class="kontainer">
-        <form action="">
+        <form action="http://10.151.168.5:3010/" method="post">
             <fieldset>
                 <legend>Starta prenumeration</legend>
-                <label for="">Förnamn</label><input type="text">
-                <label for="">Efternamn</label><input type="text">
-                <label for="">Gatuadress</label><input type="text">
-                <label for="">Postnr</label><input type="text">
-                <label for="">Postadress</label><input type="text">
-                <label for="">Mobil</label><input type="tel">
-                <label for="">Epost</label><input type="email">
+                <label for="">Förnamn</label><input type="text" name="fnamn">
+                <label for="">Efternamn</label><input type="text" name="enamn">
+                <label for="">Gatuadress</label><input type="text" name="gatuadress">
+                <label for="">Postnr</label><input type="text" name="postnr">
+                <label for="">Postadress</label><input type="text" name="postadress">
+                <label for="">Mobil</label><input type="tel" name="mobil">
+                <label for="">Epost</label><input type="email" name="epost">
 
                 <label for="">Kön</label>
                 <div>
@@ -34,7 +34,7 @@
                 </div>
 
                 <label for="">Kommun</label>
-                <select name="" id="">
+                <select name="kommun" id="">
                     <option value="1">Stockholm</option>
                     <option value="2">Sundbyberg</option>
                     <option value="3">Värmdö</option>
@@ -43,7 +43,7 @@
                 </select>
 
                 <label for="">Kommentar</label>
-                <textarea name="" id=""></textarea>
+                <textarea name="kommentar" id="" cols="30" rows="10"></textarea>
 
                 <br><button>Skicka</button>
             </fieldset>
