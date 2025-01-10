@@ -12,50 +12,53 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 /* Layouten */
 body {
-    background: url('./bilder/bg.svg');
+    background-image: url("./bilder/bg.svg");
 }
 .kontainer {
-    width: 1000px;
+    background-color: #f1f1f1;
+    width: 900px;
     margin: 0 auto;
     padding: 10px;
-    background: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Huvud */
-.kontainer h1 {
+.kontainer h2 {
+    margin-bottom: 15px;
     text-align: center;
-    margin-bottom: 10px;
-    font-size: 25px;
 }
 .kontainer .intro {
-    text-align: center;
-    margin-bottom: 10px;
     font-size: 14px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 /* Kolumnerna */
 .kontainer .kolumner-3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    background: #EEE;
+    gap:20px;
 }
-.kontainer .kolumn {
-    border-radius: 15px;
+.kontainer .kolumner-3 .kolumn {
     background: #FFF;
+    border-radius: 15px;
+    font-size: 12px;
 }
-.kontainer .kolumn  h3 {
-    margin-bottom: 10px;
-    font-size: 14px;
-}
-.kontainer .kolumn  img {
+.kontainer .kolumner-3 .kolumn img {
     width: 100%;
     border-radius: 15px 15px 0 0;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
-.kontainer .kolumn  p {
-    margin-bottom: 10px;
-    font-size: 14px;
+.kontainer .kolumner-3 .kolumn h3 {
+    margin-bottom: 15px;
+    height: 25px;
+    margin: 10px;
 }
-.kontainer .kolumn  a {}
+.kontainer .kolumner-3 .kolumn p {
+    margin-bottom: 15px;
+    height: 80px;
+    margin: 10px;
+}
+.kontainer .kolumner-3 .kolumn a {
+    margin: 10px;
+}
